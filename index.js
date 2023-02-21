@@ -199,19 +199,19 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 
 function game(user, computer){
   if(computer === 'scissors' && user === 'rock' ){
-    return "YOU WIN!"
+    return "you win!"
   } else if ( computer === 'rock' && user === 'scissors'){
-    return "YOU LOSE!"
+    return "you lose!"
   } else if ( computer === 'paper' && user === 'scissors'){
-    return 'YOU WIN!'
+    return 'you win!'
   } else if ( computer === 'scissors' && user === 'paper'){
-    return 'YOU LOSE!'
+    return 'you lose!'
   } else if ( computer === 'paper' && user === 'rock'){
-    return "YOU LOSE!"
+    return "you lose!"
   } else if ( computer === 'rock' && user === 'paper'){
-     return "YOU WIN!"
+     return "you win!"
   } else {
-    return "ITS A DRAW"
+    return "it's a tie"
   }
     
 } 
